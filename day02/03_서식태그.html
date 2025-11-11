@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서식태그 예제</title>
+</head>
+<body>
+    <!--
+    교재 p41
+    태그종류
+        -block태그: 새라인에서 시작.크기변경 가능
+        -inline태그: 현재라인에서 시작.크기변경 불가능
+        -inline-block태그: 현재라인에서 시작.크기변경 가능
+    h1태그~h6태그
+        -제목태그
+        -숫자가 작을수록 글자크기가 큼
+        -block태그
+    -->
+    <h1>제목1</h1>
+    <h2>제목2</h2>
+    <h3>제목3</h3>
+    <h4>제목4</h4>
+    <h5>제목5</h5>
+    <h6>제목6</h6>
+
+    <!--
+    교재 p43
+    <p>태그
+        -문단태그
+        -문단을 지정하는 태그
+        -문단 위 아래에 여백이 있음
+        -문단끼리 여백이 겹치는 경우 큰여백 하나만적용
+        -block태그
+    -->
+    안녕
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, cumque.</p>
+    안녕<br>
+    안녕
+    <!--    
+    교재 p44
+    <div>태그
+        -그룹지정태그
+        -여러 태그들을 묶을 때 사용
+        -대표적인 block태그
+    -->
+    <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quam </div>
+    <!-- 
+    교재 p45
+    <strong>태그
+        -강조태그
+        -강조할때 사용
+        -긁은 글씨
+        -inline태그
+    <em>태그
+        -강조태그
+        -약간 강조할때 사용
+        -기울임
+        -inline태그
+    스크린 리더기가 strong 태그,em 태그를 강하게 읽음
+------------------------------------------------------
+    b 태그
+        -긁은 글씨
+        -inline태그
+    i 태그
+        -기울임
+        -보통 아이콘을 사용할때 쓰임
+        -inline태그
+    -->
+    <p>
+        안녕하세요. 제<i>이름</i>은 <b>홍길동</b>입니다.
+    </p>
+    <p>
+        안녕하세요. 제<em>이름</em>은 <strong>홍길동</strong>입니다.
+    </p>
+    <!-- 
+    교재 p46
+    <a>태그
+        -링크태그
+        -
+        -inline태그
+    -->
+
+    <!--   
+    교재 p47  
+    <span>태그
+        -그룹화태그
+        -기능이 없음
+        -글자들을 묶어서 스타일을 줄 때 사용
+        -대표적인 inline태그
+    -->
+    <p>
+        안녕하세요 제 이름은 <span style="color: yellow;">홍길동</span>입니다
+    </p>
+
+    <!--  
+    교재 p48   
+    <img>태그
+        -이미지태그
+        -이미지를 넣을 때 사용
+        -inline-block태그
+        -속성
+            -src:보여줄 이미지 주소
+            -alt:이미지가 가져오지 못할 때 보여줄 문구. 스크린 리더기가 읽어 줌
+            -width:너비,기본값은 이미지 원본의 100% 너비,기본 단위 px,auto비뉼맞게 변하기
+            -height:높이,기본값은 이미지 원본의 100% 높이,기본 단위 px,auto비뉼맞게 변하기
+    -->
+    고양이
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MjNfMTc3%2FMDAxNzUwNjU4NTIyNjE2.o6I9MAfT0rPcw0yj18h3fjGxe0Zi1_uXB57GiX0DjoIg.zsjlxFTacEXa4YvL5NGQLcgvVdfxMb6tcKam_CUxh0gg.PNG%2Fimage.png&type=a340" 
+    alt="고양이" width="300" height="auto">
+    <!--   
+    교재 p49 
+    <br>태그
+        -줄바꿈태그
+        -스크린 리더기가 읽을 수 있으니 남용은 금지
+        -inline태그
+    -->
+
+</body>
+</html>
