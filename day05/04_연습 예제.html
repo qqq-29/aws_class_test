@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>연습 예제</title>
+	<style>
+		.container{
+			border: 5px solid blue; width: 100px; height: 100px;
+		}
+		/*글자를 좌우 가운데 정렬, 글자의 줄 높이를 100px로지정*/
+		.box{text-align:center; line-height:100px
+		}
+		.button > .button2{
+			width: 50px; height: 50px; border-radius: 50%; color: black; text-decoration: none;
+			border: 10px solid black;
+			background-color: aqua;
+		}
+	</style>
+</head>
+<body>
+	<!--
+	너비 100px, 높이 100px, 테두리 5px인 박스를 만들고
+	그 안에 1이라는 글자를 가운데 배치하도록 화면을 구성하세요
+	-->
+	<div class="container">
+		<div class="box">
+		<a>1</a>
+		</div>
+	</div>
+	<main style="height: 1000px;"></main>
+	<!--
+	UP버튼을 만들어서 up버튼을 클릭하면 제일 상단으로 이동하도록 구성하세요
+	단, 버튼 너비50px, 높이50px,
+	-->
+	<label>
+	<a type="button" class="button" href="#top">
+		<button class="button2">UP</button>
+	</a>
+	</label>
+</body>
+</html>
